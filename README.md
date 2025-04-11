@@ -1,4 +1,4 @@
-## ?? Projeto React: Lista de Tarefas com memo, useEffect e Portal
+## Projeto React: Lista de Tarefas com memo, useEffect e Portal
 
 Este projeto é um exemplo simples de uma lista de tarefas que demonstra os conceitos de:
 
@@ -9,7 +9,7 @@ Este projeto é um exemplo simples de uma lista de tarefas que demonstra os conce
 
 ---
 
-## ?? Passo a Passo para Executar o Projeto
+## Passo a Passo para Executar o Projeto
 
 ### 1. Pré-requisitos
 
@@ -46,13 +46,15 @@ npm run dev
 - Modal com portal (TaskModal)
 - useEffect simulando carregamento de tarefa inicial
 
-### ?? Estrutura dos Arquivos
+### Estrutura dos Arquivos
 
 src/
 ??? App.jsx         `Componente principal com lógica da aplicação`
+??? index.css       `estilização`
+??? index.html      `HTML principal com root e modal-root`
+??? main.jsx        `renderiza o <App /> no DOM.`
 ??? TaskItem.jsx    `Componente individual de tarefa (memoizado)`
 ??? TaskModal.jsx   `Modal com detalhes da tarefa (usa portal)`
-??? index.html      `HTML principal com root e modal-root`
 
 ### o que é feito em cada arquivo
 - **App.jsx**
